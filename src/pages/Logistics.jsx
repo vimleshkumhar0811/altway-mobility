@@ -240,12 +240,12 @@ export default function Logistics() {
                   </p>
                 </div>
 
-                <div className="px-7 sm:px-8 lg:px-9 pb-7 sm:pb-8 lg:pb-9">
+                {/* <div className="px-7 sm:px-8 lg:px-9 pb-7 sm:pb-8 lg:pb-9">
                   <button className="w-full bg-gray-900 hover:bg-gray-800 text-white font-medium py-3.5 rounded-2xl transition-all flex items-center justify-center gap-2 group-hover:scale-[1.02]">
                     Learn More
                     <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                   </button>
-                </div>
+                </div> */}
               </motion.div>
             ))}
           </div>

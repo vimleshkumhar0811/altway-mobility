@@ -170,7 +170,7 @@ export default function About() {
               className="relative rounded-3xl overflow-hidden shadow-2xl border border-gray-200"
             >
               <img
-                src="https://images.unsplash.com/photo-1503387762-592deb58caa5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                src="https://images.unsplash.com/photo-1622037022824-0c71d511ef3c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Team delivering with e-bikes in city"
                 className="w-full h-auto object-cover aspect-[4/3] sm:aspect-video"
               />
