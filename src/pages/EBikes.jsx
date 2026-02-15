@@ -2,6 +2,9 @@
 import { motion } from "framer-motion";
 import { Bike, Zap, Leaf, ArrowRight } from "lucide-react";
 import { NavLink } from "react-router-dom";
+import bike2 from '/src/assets/bike2.jpg';
+import bike3 from '/src/assets/bike3.jpg';
+import bike4 from '/src/assets/bike4.jpg';
 
 // ────────────────────────────────────────────────
 // Reuseable Hero component (same style as home page)
@@ -114,7 +117,7 @@ const bikes = [
     name: "Urban Commuter Pro",
     price: "€56/day",
     desc: "Lightweight, long-range city e-bike with upright comfort and integrated lights.",
-    img: "https://images.unsplash.com/photo-1753092604434-8c0e6c3b50f0?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: bike2,
     badge: "Best for City",
     icon: Bike,
   },
@@ -122,7 +125,7 @@ const bikes = [
     name: "Cargo Beast",
     price: "€79/day",
     desc: "Heavy-duty cargo e-bike – ideal for deliveries, shopping or small business use.",
-    img: "https://images.unsplash.com/photo-1672860354855-9ff508724dae?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+     img: bike3,
     badge: "Max Load 180 kg",
     icon: Zap,
   },
@@ -130,8 +133,7 @@ const bikes = [
     name: "Mountain Trail X",
     price: "€89/day",
     desc: "Full-suspension electric MTB – perfect for trails, forest roads and adventure.",
-    img: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?ixlib=rb-4.0.3&auto=format&fit=crop&w=900&q=80",
-    badge: "Off-Road Ready",
+    img: bike4,
     icon: Leaf,
   },
 ];
@@ -203,19 +205,20 @@ export default function EBikes() {
                     {bike.desc}
                   </p>
 
-                  <div className="flex items-baseline mb-6">
+                  {/* <div className="flex items-baseline mb-6">
                     <span className="text-4xl sm:text-5xl font-extrabold text-emerald-600">
                       {bike.price.split("/")[0]}
                     </span>
                     <span className="text-lg sm:text-xl text-gray-500 ml-2">
                       /day
                     </span>
-                  </div>
+                  </div> */}
 
-                  <button className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-4 rounded-2xl transition-all duration-300 flex items-center justify-center gap-2 shadow-md hover:shadow-lg group-hover:scale-[1.02]">
+                  <NavLink
+              to="/book-delivery" className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-4 rounded-2xl transition-all duration-300 flex items-center justify-center gap-2 shadow-md hover:shadow-lg group-hover:scale-[1.02]">
                     Book Now
                     <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-                  </button>
+                  </NavLink>
                 </div>
               </motion.div>
             ))}

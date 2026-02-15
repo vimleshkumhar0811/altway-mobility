@@ -1,5 +1,7 @@
 // src/components/Hero.jsx
 import { NavLink } from "react-router-dom";
+import homeBg from "/src/assets/homeBg.png";
+import home from "/src/assets/home.webp";
 
 export default function Hero() {
   return (
@@ -7,7 +9,7 @@ export default function Hero() {
       {/* Faded background map (world / Latvia style) */}
       <div className="absolute inset-0 opacity-25 pointer-events-none">
         <img
-          src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-023-35780-7/MediaObjects/41598_2023_35780_Fig1_HTML.png"
+          src={homeBg}
           alt="Latvia / Europe map faded background"
           className="w-full h-full object-cover scale-125"
         />
@@ -42,7 +44,7 @@ export default function Hero() {
 
         <div className="hidden md:block relative">
           <img
-            src="https://thumbs.dreamstime.com/b/delivery-person-electric-bike-yellow-bag-delivering-food-city-rides-bicycle-urban-setting-399489574.jpg"
+            src={home}
             alt="Delivery rider on electric bike with yellow backpack"
             className="rounded-3xl shadow-2xl object-cover h-[620px] w-full brightness-95"
           />

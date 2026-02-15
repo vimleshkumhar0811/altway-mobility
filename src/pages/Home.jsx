@@ -2,6 +2,8 @@
 import Hero from "../components/Hero";
 import { Bike, Truck, Leaf } from "lucide-react";
 import { NavLink } from "react-router-dom";
+import bike1 from '/src/assets/bike1.jpg';
+import bike4 from '/src/assets/bike4.jpg';
 
 export default function Home() {
   return (
@@ -59,7 +61,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 lg:grid-cols-3 gap-12">
           <div className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all">
             <img
-              src="https://thumbs.dreamstime.com/b/delivery-person-electric-bike-yellow-bag-delivering-food-city-rides-bicycle-urban-setting-399489574.jpg"
+              src={bike1}
               alt="E-Mobility Bike delivery rider"
               className="w-full h-80 object-cover"
             />
@@ -68,19 +70,19 @@ export default function Home() {
               <p className="text-gray-500 mb-6">
                 Perfect for urban commuting & light delivery
               </p>
-              <div className="text-5xl font-extrabold text-emerald-600 mb-8">
+              {/* <div className="text-5xl font-extrabold text-emerald-600 mb-8">
                 €56<span className="text-2xl font-normal">/day</span>
               </div>
               <button className="w-full bg-emerald-600 text-white py-5 rounded-2xl font-bold text-lg hover:bg-emerald-700 transition">
                 Book Now
-              </button>
+              </button> */}
             </div>
           </div>
 
           <div className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all">
             <img
-              src="https://electrek.co/wp-content/uploads/sites/3/2023/08/ups-bike-truck-header.jpg?quality=82&strip=all"
-              alt="Cargo / Heavy duty e-bike"
+              src={bike4}
+               alt="Cargo / Heavy duty e-bike"
               className="w-full h-80 object-cover"
             />
             <div className="p-10">
@@ -88,12 +90,12 @@ export default function Home() {
               <p className="text-gray-500 mb-6">
                 Heavy-duty option for larger loads
               </p>
-              <div className="text-5xl font-extrabold text-emerald-600 mb-8">
+              {/* <div className="text-5xl font-extrabold text-emerald-600 mb-8">
                 €79<span className="text-2xl font-normal">/day</span>
-              </div>
-              <button className="w-full bg-emerald-600 text-white py-5 rounded-2xl font-bold text-lg hover:bg-emerald-700 transition">
+              </div> */}
+              {/* <button className="w-full bg-emerald-600 text-white py-5 rounded-2xl font-bold text-lg hover:bg-emerald-700 transition">
                 Book Now
-              </button>
+              </button> */}
             </div>
           </div>
 
