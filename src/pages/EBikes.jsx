@@ -215,11 +215,11 @@ export default function EBikes() {
                     </span>
                   </div> */}
 
-                  <NavLink
+                  {/* <NavLink
               to="/book-delivery" className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-semibold py-4 rounded-2xl transition-all duration-300 flex items-center justify-center gap-2 shadow-md hover:shadow-lg group-hover:scale-[1.02]">
                     Book Now
                     <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-                  </NavLink>
+                  </NavLink> */}
                 </div>
               </motion.div>
             ))}

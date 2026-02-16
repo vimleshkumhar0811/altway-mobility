@@ -54,13 +54,13 @@ function Hero() {
             transition={{ duration: 1, delay: 0.45 }}
             className="mt-10 flex flex-wrap gap-5"
           >
-            <NavLink
+            {/* <NavLink
               to="/book-delivery"
               className="bg-emerald-600 hover:bg-emerald-500 px-8 py-5 rounded-full font-bold text-lg shadow-xl transition-all hover:shadow-2xl hover:-translate-y-1 flex items-center gap-2"
             >
               Book Delivery Now
               <ArrowRight className="w-5 h-5" />
-            </NavLink>
+            </NavLink> */}
 
             <NavLink
               to="/contact"
