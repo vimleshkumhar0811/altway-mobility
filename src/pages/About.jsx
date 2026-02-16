@@ -52,12 +52,12 @@ function Hero() {
               <ArrowRight className="w-5 h-5" />
             </NavLink>
 
-            <NavLink
+            {/* <NavLink
               to="/book-delivery"
               className="border-2 border-white/60 hover:bg-white/10 px-8 py-5 rounded-full font-bold text-lg transition-all"
             >
               Book a Delivery
-            </NavLink>
+            </NavLink> */}
           </motion.div>
         </div>
       </div>
@@ -230,13 +230,13 @@ export default function About() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-5 justify-center">
-              <NavLink
+              {/* <NavLink
                 to="/book-delivery"
                 className="bg-white text-emerald-900 px-10 py-5 rounded-full font-bold text-lg shadow-2xl hover:bg-gray-100 transition-all hover:shadow-3xl inline-flex items-center justify-center gap-3"
               >
                 Book a Delivery
                 <ArrowRight className="w-5 h-5" />
-              </NavLink>
+              </NavLink> */}
 
               <NavLink
                 to="/contact"

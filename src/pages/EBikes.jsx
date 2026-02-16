@@ -4,7 +4,7 @@ import { Bike, Zap, Leaf, ArrowRight } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import bike2 from '/src/assets/bike2.jpg';
 import bike3 from '/src/assets/bike3.jpg';
-import bike4 from '/src/assets/bike4.jpg';
+import bike1 from '/src/assets/bike1.jpg';
 
 // ────────────────────────────────────────────────
 // Reuseable Hero component (same style as home page)
@@ -133,7 +133,8 @@ const bikes = [
     name: "Mountain Trail X",
     price: "€89/day",
     desc: "Full-suspension electric MTB – perfect for trails, forest roads and adventure.",
-    img: bike4,
+    img: bike1,
+    badge: "Off-road Ready",
     icon: Leaf,
   },
 ];

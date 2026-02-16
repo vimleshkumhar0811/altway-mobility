@@ -310,7 +310,7 @@ export default function Contact() {
               </div>
 
               {/* Quick CTA */}
-              <div className="mt-12 bg-emerald-900 text-white p-8 rounded-3xl text-center">
+              {/* <div className="mt-12 bg-emerald-900 text-white p-8 rounded-3xl text-center">
                 <h3 className="text-2xl font-bold mb-4">Need Fast Delivery?</h3>
                 <NavLink
                   to="/book-delivery"
@@ -319,7 +319,7 @@ export default function Contact() {
                   Book a Delivery Now
                   <ArrowRight className="w-5 h-5" />
                 </NavLink>
-              </div>
+              </div> */}
             </motion.div>
           </div>
         </div>

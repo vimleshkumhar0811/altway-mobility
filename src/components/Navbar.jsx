@@ -47,7 +47,7 @@ export default function Navbar() {
             ))}
 
             {/* CTA Button */}
-            <NavLink
+            {/* <NavLink
               to="/book-delivery"
               className="bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 
                          text-white font-semibold px-7 py-3 rounded-full 
@@ -55,7 +55,7 @@ export default function Navbar() {
                          transform hover:-translate-y-0.5"
             >
               Book a Delivery
-            </NavLink>
+            </NavLink> */}
           </div>
 
           {/* Mobile Hamburger Button */}
@@ -97,7 +97,7 @@ export default function Navbar() {
             </NavLink>
           ))}
 
-          <NavLink
+          {/* <NavLink
             to="/book-delivery"
             onClick={() => setIsOpen(false)}
             className="block mt-4 bg-emerald-600 hover:bg-emerald-500 active:bg-emerald-700 
@@ -105,7 +105,7 @@ export default function Navbar() {
                        transition-all duration-300 shadow-md"
           >
             Book a Delivery
-          </NavLink>
+          </NavLink> */}
         </div>
       </div>
     </nav>

@@ -69,14 +69,14 @@ export default function Footer() {
                   Last-Mile Logistics
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink
                   to="/book-delivery"
                   className="hover:text-emerald-400 transition-colors duration-200"
                 >
                   Book a Delivery
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

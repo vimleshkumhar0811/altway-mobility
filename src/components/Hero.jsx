@@ -33,12 +33,12 @@ export default function Hero() {
             >
               Explore E-Bikes
             </NavLink>
-            <NavLink
+            {/* <NavLink
               to="/book-delivery"
               className="border-2 border-white/80 hover:bg-white hover:text-teal-900 px-10 py-5 rounded-full font-bold text-lg transition-all"
             >
               Book a Delivery
-            </NavLink>
+            </NavLink> */}
           </div>
         </div>
 

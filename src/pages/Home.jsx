@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import { Bike, Truck, Leaf } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import bike1 from '/src/assets/bike1.jpg';
-import bike4 from '/src/assets/bike4.jpg';
+import bike3 from '/src/assets/bike3.jpg';
 
 export default function Home() {
   return (
@@ -81,7 +81,7 @@ export default function Home() {
 
           <div className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all">
             <img
-              src={bike4}
+              src={bike3}
                alt="Cargo / Heavy duty e-bike"
               className="w-full h-80 object-cover"
             />
@@ -131,12 +131,12 @@ export default function Home() {
             Join hundreds of satisfied clients using eco-friendly deliveries
             across Latvia.
           </p>
-          <NavLink
+          {/* <NavLink
             to="/book-delivery"
             className="inline-block bg-white text-emerald-900 px-12 py-6 rounded-full font-bold text-2xl shadow-2xl hover:bg-gray-100 transition-all hover:shadow-3xl"
           >
             Book a Delivery Today
-          </NavLink>
+          </NavLink> */}
         </div>
       </section>
     </div>
