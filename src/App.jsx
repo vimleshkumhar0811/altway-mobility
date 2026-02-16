@@ -29,7 +29,7 @@ function AnimatedRoutes() {
         <Route path="/logistics" element={<Logistics />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/book-delivery" element={<BookDelivery />} />
+        {/* <Route path="/book-delivery" element={<BookDelivery />} /> */}
       </Routes>
     </AnimatePresence>
   );
